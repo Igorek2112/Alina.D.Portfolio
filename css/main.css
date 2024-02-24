@@ -37,7 +37,10 @@
   font-family: Outfit-b;
   src: url(../fonts/Outfit-Bold.ttf);
 }
-
+html,
+body {
+  overflow-x: hidden;
+}
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -159,5 +162,23 @@ img {
   }
   .textOfList {
     font-size: 1.7vh;
+  }
+  .progress {
+    width: 60% !important;
+  }
+  .iconsProgram {
+    width: 150% !important;
+  }
+  .iconCol {
+    padding-right: 0;
+  }
+  .space {
+    margin: 0;
+  }
+  .donut {
+    margin: 0;
+  }
+  .nameOfWork {
+    font-size: x-small;
   }
 }
